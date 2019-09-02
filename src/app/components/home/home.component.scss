@@ -1,0 +1,32 @@
+.container {
+    display: grid;
+    margin: 0 auto;
+    max-width: 48rem;
+    width: 90%;
+}
+
+body {
+    padding-top: 50px;
+    text-align: left;
+    font-family: Courier, monospace;
+    background-color:black;
+    background-size: auto;
+}
+
+h1, h2 {
+    display: inline-block;
+    
+}
+h1 {
+    font-size: 30px
+}
+h2 {
+    font-size: 20px;
+}
+span {
+    background:orange;
+}
+
+.welcome{
+    color: white;
+}
