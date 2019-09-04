@@ -1,15 +1,11 @@
-*, *:before, *:after {
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-}
 
 .container {
+    display: grid;
     margin: 0 auto;
     max-width: 48rem;
     width: 90%;
     font-size: 20px;
-    color: white;
+    color: white;//font color
     
 }
 
@@ -43,7 +39,7 @@
 }
 
 .square {
-    background-color: rgba(126, 17, 126, 0.411);
-    font-weight: 900;
+    background-color:red;
+    font-weight: 700;
 }
 

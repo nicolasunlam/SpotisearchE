@@ -1,8 +1,10 @@
-<p>Search your favourite songs over Spotify, just enter an artist´s name in the following search
-    box and enjoy!</p>
-    <div class="searchBox">
-        <input #buscado type="text" (keyup)="buscar(buscado.value)"
-        class="form-control" placeholder="Type the name of your favourite artist" >
+<div>
+    <p>Search your favourite songs over Spotify, just enter an artist´s name in the following search
+        box and enjoy!</p>
+        <div class="searchBox">
+            <input [(ngModel)]="artist.name">
+            class="form-control" placeholder="Type the name of your favourite artist" >
+        </div>
     </div>
     
     

@@ -9,7 +9,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { FsongsComponent } from './components/fsongs/fsongs.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HomeComponent } from './components/home/home.component';
-// import { apipe } from './pipes/apipe.pipe';
+
 
 @NgModule({
   

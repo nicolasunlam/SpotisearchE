@@ -16,25 +16,13 @@ export class SpotifyService {
   
     const headers = new HttpHeaders({
       Authorization:
-      "Bearer BQCItPNevyVExFrIcz2Lu36MiTNW7A-6pmsZDcfD302RoQhiK97POPBWecTOu4B38DARuVmjJvBPZfI-Mvo"
+      "Bearer "
     });
     
     return this.http.get(url, { headers });
   }
   
   
-  // SBox
-  
-  getArtists(buscado: string) {
-    return this.getQuery(`search?q=${buscado}&type=artist&limit=15`).pipe(
-      map(data => data["artists"].items)
-      );
-    }
-    
-    getArtist(id: string) {
-      return this.getQuery(`artists/${id}`);
-      // .pipe( map( data => data['artists'].items));
-    }
     
     
   }

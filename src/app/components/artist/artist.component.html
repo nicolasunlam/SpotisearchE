@@ -1,1 +1,10 @@
-<p>artist works!</p>
+<h2>Artists List</h2>
+
+<p><i>Pick an artist from the list</i></p>
+<ul>
+  <li *ngFor="let hero of heroes" (click)="selectHero(hero)">
+    {{artist.name}}
+  </li>
+</ul>
+
+<app-hero-detail *ngIf="selectedHero" [hero]="selectedHero"></app-hero-detail>
